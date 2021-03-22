@@ -24,14 +24,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Add"
-        android:text="加1"
+        android:text="+1"
         android:textSize="30sp" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="加2"
+        android:text="+2"
         android:textSize="30sp"
         android:onClick="Add"/>
 
@@ -39,8 +39,21 @@
         android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="歸零"
+        android:text="Reset to 0"
         android:textSize="30sp"
         android:onClick="Add"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lotto"
+        android:textSize="30sp"
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@tools:sample/avatars" />
 
 </LinearLayout>
